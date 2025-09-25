@@ -9,6 +9,7 @@ header {
     padding: 10px;
     margin-bottom: 20px;
     display: flex;
+    align-items: center;
 }
 
 .button {
@@ -50,8 +51,9 @@ p {
 .info {
     flex-wrap: wrap;
     width: 1100px;
-    margin: 0px;
+    margin: 0px auto 0px auto;
     display: flex;
+    max-width: 1100px;
 }
 
 article {
@@ -86,4 +88,13 @@ footer p {
 
 h2 {
     color: black;
+}
+
+a {
+    display: block;
+}
+
+.klysw {
+    min-height: 270px;
+    width: 100%;
 }
